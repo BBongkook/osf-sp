@@ -5,12 +5,5 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-	<bean class="com.osf.sp.ioc1.Person" id="p"/>
-	<bean class="com.osf.sp.ioc1.Animal" id="a"/>
-	<bean class="com.osf.sp.ioc1.Student" id="s">
-		<constructor-arg>
-			<ref bean="a"></ref>
-		</constructor-arg>
-	</bean>
-	
+	<bean class="com.osf.sp.ioc3.Person" id="p"></bean>
 </beans>
